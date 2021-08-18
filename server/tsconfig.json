@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "types": ["node", "express"],
+    "lib": ["ESNext"],
+    "outDir": "../dist/server",
+    "strict": true
+  }
+}
