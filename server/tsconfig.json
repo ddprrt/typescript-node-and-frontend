@@ -7,6 +7,10 @@
     "outDir": "../dist/server",
     "strict": true,
     "moduleResolution": "node",
-    "module": "CommonJS"
+    "module": "CommonJS",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   }
 }
