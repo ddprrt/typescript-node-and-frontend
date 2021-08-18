@@ -5,6 +5,8 @@
     "types": ["node", "express"],
     "lib": ["ESNext"],
     "outDir": "../dist/server",
-    "strict": true
+    "strict": true,
+    "moduleResolution": "node",
+    "module": "CommonJS"
   }
 }
